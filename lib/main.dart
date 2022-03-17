@@ -14,7 +14,6 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.cyan[100],
       appBar: AppBar(
-        centerTitle: true,
         backgroundColor: Colors.cyan[600],
         title: Text("I'm Rich app"),
       ),
