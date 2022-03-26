@@ -12,9 +12,9 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.cyan[100],
+      backgroundColor: Colors.blueGrey[400],
       appBar: AppBar(
-        backgroundColor: Colors.cyan[600],
+        backgroundColor: Colors.blueGrey[900],
         title: Text("I'm Rich app"),
       ),
       body: Center(
