@@ -15,7 +15,7 @@ class Home extends StatelessWidget {
       backgroundColor: Colors.blueGrey[400],
       appBar: AppBar(
         backgroundColor: Colors.blueGrey[900],
-        title: Text("I'm Rich app"),
+        title: Center(child: Text("I'm Rich app")),
       ),
       body: Center(
         child: Padding(
